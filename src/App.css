@@ -75,3 +75,11 @@
 .blurred-img.loaded img {
   opacity: 1;
 }
+.swiper-pagination-bullet {
+  background: #ffffff !important;
+  opacity: 0.35;
+}
+.swiper-pagination-bullet-active {
+  background: #ffffff !important;
+  opacity: 1;
+}

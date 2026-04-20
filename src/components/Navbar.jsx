@@ -12,7 +12,7 @@
 
     return (
         <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border">
-        <div className="container max-w-6xl mx-auto flex items-center justify-between h-16 px-6">
+        <div className="container   mx-auto flex items-center justify-between h-16 px-6">
             <a
             href="#home"
             className="text-lg font-bold tracking-tight text-foreground"

@@ -8,43 +8,44 @@ import {
   Twitter,
   Mail,
 } from "lucide-react";
+import { FaTelegram, FaWhatsapp } from "react-icons/fa";
 
 const socials = [
   {
     label: "Telegram",
-    icon: Send,
-    href: "https://t.me/your_username",        // ← replace
+    icon: FaTelegram,
+    href: "https://t.me/haid_er_ali",        
   },
   {
     label: "WhatsApp",
-    icon: MessageCircle,
-    href: "https://wa.me/your_number",         // ← replace (e.g. 9641234567890)
+    icon: FaWhatsapp,
+    href: "https://wa.me/qr/NJPIX545JMB4B1",       
   },
   {
     label: "Instagram",
     icon: Instagram,
-    href: "https://instagram.com/your_handle", // ← replace
+    href: "https://instagram.com/hyi___4u", 
   },
   {
     label: "Facebook",
     icon: Facebook,
-    href: "https://facebook.com/your_handle",  // ← replace
+    href: "https://www.facebook.com/share/18qr6tAU9v/",  
   },
   {
     label: "LinkedIn",
     icon: Linkedin,
-    href: "https://linkedin.com/in/your_handle", // ← replace
+    href: "https://www.linkedin.com/in/haider-ali-hassan-8079763a1", 
   },
   {
     label: "GitHub",
     icon: Github,
-    href: "https://github.com/your_handle",    // ← replace
+    href: "https://github.com/hyi4u",
   },
-  {
-    label: "Twitter",
-    icon: Twitter,
-    href: "https://twitter.com/your_handle",   // ← replace
-  },
+  // {
+  //   label: "Twitter",
+  //   icon: Twitter,
+  //   href: "https://twitter.com/your_handle",   // ← replace
+  // },
 ];
 
 const CTAFooter = () => (
@@ -65,28 +66,28 @@ const CTAFooter = () => (
       {/* Contact buttons */}
       <div className="flex flex-wrap justify-center gap-3 pt-2">
         <a
-          href="mailto:haider@example.com"     // ← replace with your email
+          href="mailto:haiderumbra@gmail.com"   
           className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity text-sm"
         >
           <Mail size={15} />
           Send an Email
         </a>
         <a
-          href="https://wa.me/your_number"     // ← replace
+          href="https://wa.me/qr/NJPIX545JMB4B1"     
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border text-foreground font-medium hover:bg-secondary transition-colors text-sm"
         >
-          <MessageCircle size={15} />
+          <FaWhatsapp size={15} />
           WhatsApp
         </a>
         <a
-          href="https://t.me/your_username"    // ← replace
+          href="https://t.me/haid_er_ali"    
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border text-foreground font-medium hover:bg-secondary transition-colors text-sm"
         >
-          <Send size={15} />
+          <FaTelegram size={15} />
           Telegram
         </a>
       </div>

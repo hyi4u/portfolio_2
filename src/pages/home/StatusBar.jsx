@@ -11,8 +11,8 @@ const stats = [
 ];
 
 const StatusBar = () => (
-  <section className="border-y border-border bg-secondary/50">
-    <div className="container max-w-6xl mx-auto px-6 py-6 grid sm:grid-cols-3 gap-6">
+  <section className="border-y border-border bg-secondary/50 mt-10 sm:mt-0">
+    <div className="container max-w-6xl mx-auto px-6 py-6 grid sm:grid-cols-3 gap-6 ">
       {stats.map((s) => (
         <div key={s.label} className="flex items-center gap-3">
           <s.icon size={18} className="text-primary shrink-0" />
